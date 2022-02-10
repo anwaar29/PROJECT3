@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=b, initial-scale=1.0">
+    <title>ToDo2</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <style>
+    .blur{
+     filter: blur(4px);
+    }
+    .box{
+     
+        height:700px; 
+        width:1300px;
+        position:absolute;
+        top:50px;
+    }
+    .box1{
+        background-color: rgba(255, 255, 255, 0.952);
+    border: 2px solid red;
+    height: 220px;
+    width: 400px;
+    border-radius: 20px;
+    position: relative;
+    top:225px;
+    left: 450px;
+    text-align: center;
+    font: 1em sans-serif;
+    padding-top: 25px;
+    }
+    @media all and (max-width:400px) {
+      .blur{
+     filter: blur(8px);
+    }
+    .box{
+     
+        height:700px; 
+        width:1300px;
+        position:absolute;
+        top:50px;
+    }
+    .box1{
+    background-color: rgba(255, 255, 255, 0.952);
+    border: 2px solid red;
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    top:225px;
+    left: 50px;
+    text-align: center;
+    font: 1em sans-serif;
+    padding-top: 25px;
+    display: inline-block;
+    }
+  }
+    </style>
+</head>
+<body>
+<div class="blur">
+    <div class="task"><h1 style="position: absolute; top:120px; left:200px; font-size: 40px;">TASKS
+        <span style="color:gray;"> LISTS</span> </h1> 
+           <a href=""> <span class="material-icons">
+              add_circle
+              </span></a><p style="color: gray;">Add List</p></div>
+    <div class="cont">
+  <div class="flex1">
+   Trip To Paris<hr style="margin-left: 40px; width: 208px;"><br>
+   <del style="color: red;">Complete Task</del><br><br>
+   <input type="checkbox" style="margin: left 0;"> Pending Task
+  </div>
+ 
+  <div class="flex2">
+   My ToDo List<hr style="width:208px;margin-left: 40px;"><br>
+   <del style="color: red;">Complete Task</del><br><br>
+   <input type="checkbox" style="margin: left 0;"> Pending Task
+  </div>
+  <div class="flex3">
+   My ToDo List<hr style="width:208px;margin-left: 40px;"><br>
+   <del style="color: red;">Complete Task</del><br><br>
+   <input type="checkbox" style="margin: left 0;"> Pending Task
+  </div>
+    </div>
+   
+</div>
+<div class="box">
+      <div class="box1">
+          <form action="">
+          <h2>ADD NEW LIST</h2>
+          <input type="text"><br><br>
+          <input type="button" value="Add" style="background-color: red; border-radius: 20px;">
+        </form>
+        </div>
+        <div>
+          <a href="index.html"> <span id="btn" class="material-icons" style="position: relative; left:640px">
+               arrow_back_ios_new
+               </span></a>
+       </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+.cont
+{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin-left: 150px;
+}
+.flex1
+{
+border-radius:25px;
+width:220px;
+height:300px;
+border: 2px solid red;
+margin: 30px;
+text-align: center;
+font-size: 22px;
+padding: 30px;
+}
+.flex2
+{
+border-radius:25px;
+width:220px;
+height:300px;
+border: 2px solid red;
+margin: 30px;
+padding: 30px;
+text-align: center;
+font-size: 22px;
+padding: 30px;
+}
+.flex3
+{
+border-radius:25px;
+width:220px;
+height:300px;
+border: 2px solid red;
+margin: 30px;
+padding: 30px;
+text-align: center;
+font-size: 22px;
+padding: 30px;
+}
+.task
+{
+    height: 180px;
+    display:inline-block;
+}
+.material-icons
+{
+position: relative;
+top: 157px;
+left:970px;
+color: red;
+}
+p{
+    position: relative;
+    top: 95px;
+    left:1000px;   
+    font-size:30px;
+}
+@media all and (max-width:400px){
+    .cont
+    {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-top: 200px;
+    }
+    .flex1
+    {
+    border-radius:25px;
+    width:220px;
+    height:30px;
+    border: 2px solid red;
+    margin: 30px;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    }
+    .flex2
+    {
+        text-decoration: none;
+    border-radius:25px;
+    width:220px;
+    height:30px;
+    border: 2px solid red;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    }
+    .flex3
+    {
+    border-radius:25px;
+    width:220px;
+    height:30px;
+    border: 2px solid red;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    }   
+    .task
+{
+    height: 60px;
+    position: absolute;
+    top: 1px;
+    left: -120px;
+    
+}
+.material-icons
+{
+position: relative;
+top: 180px;
+left:420px;
+color: red;
+}
+p{
+    position: relative;
+    top: 95px;
+    left:1000px;   
+    font-size:30px;
+}
+.com,.check,.s1{
+display: none;
+}
+}
